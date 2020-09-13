@@ -4,7 +4,7 @@
     <div class="property_image">
       <img
         :src="
-          'https://festive-exchanges.000webhostapp.com/images/' + prop.image
+          prop.image
         "
         alt=""
       />
