@@ -3,9 +3,7 @@
     <router-link :to="'/propDetails/'+prop.id">
     <div class="property_image">
       <img
-        :src="
-          prop.image
-        "
+        :src="'https://firebasestorage.googleapis.com/v0/b/laravel-firebase-39c14.appspot.com/o/real-estate%2Ffooter_latest_3.jpg?alt=media&token=652a3989-8fb0-433f-8851-adcd16fc94d4'"
         alt=""
       />
       <div class="tag_featured property_tag"><a href="#">Featured</a></div>
